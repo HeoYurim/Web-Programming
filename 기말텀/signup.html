@@ -1,0 +1,48 @@
+﻿
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<meta authors="임순범 박희민"/>
+		<title> Signup Page </title>
+		<style type="text/css">
+		body{background-color : black; }
+		a {color : #E0C1F4; font-size : 12pt;}
+		legend{text-align : center; color : #A2EFAA}
+		fieldset { color : white; font-size : 12pt;}
+		span { display: inline-block; width: 109px; height:40px;}
+		</style>
+	</head>
+		<body id="signup">
+		<div style="text-align: center;">
+          		  <img src="hat.png" width="120" height="120" alt="모자"> 	
+		  </div>
+		<form>    
+      		<fieldset>
+      			  <legend>Welcome to Hogwarts</legend>
+      			  <span>이름</span>
+      			  <input id="name2" type="text"/>
+     			  <input id="dup_check" type="button" value="Homenum Revelio" disabled/><br/>
+     			  <span>비밀번호</span> <input id="pass1" type="password">
+        			  <input pw="dup_check" type="button" value="PWCheack" disabled/><br/>
+      			  <span>생일</span> <input type="date"/><br/>
+        			<span>기숙사</span>
+          			<input type="radio" value="humanity" name="interest">그리핀도르</label>
+          			<input type="radio" value="education" name="interest">래번클로</label>
+          			<input type="radio" value="art" name="interest">슬리데린</label>
+          			<input type="radio" value="computer" name="interest">후플푸프</label>
+        			<br/>
+			<span>전공</span>
+       			<select>
+            		<option>방어술</option>
+            		<option>마법약</option>
+           			<option>약초합</option>
+            		<option>변신술</option>
+			<option>그 외</option>
+        			</select><br/>
+      		</fieldset><br/>
+     		 <input id="signup_button" type="submit" value="회원가입" disabled/>
+      		<input id="reset2" type="button" value="취소" disabled/>
+    		</form> 
+		</body>
+</html>
