@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset= "uft-8">
+	<meta authors="허유림">
+</head>
+<body>
+	<form action = "">
+		<input id="username" type = "text" value="홍길동" />
+		<input id="myname" type = "button" value="이름변경" />
+	</form>
+
+	<script type = "text/javascript">
+		function myEventHandler()
+		{
+			changename=prompt("변경할 이름을 입력하시오");
+			var dom2 = document.getElementById("username");
+			dom2.value = changename;
+		}
+		
+		var dom1 = document.getElementById("myname");
+		dom1.onclick = myEventHandler;
+	</script>
+</body>
+</html>
